@@ -1,6 +1,6 @@
 // Copyright 2019, 2018, JINS Inc., all rights reserved
 // アプリケーション作成用のモジュールを読み込み、インスタンスを作成
-module.exports.noble_type = 'noble-winrt';
+module.exports.noble_type = 'noble-uwp';
 const memeDevice = require('jinsmemesdk-node-noble-x');
 let memeDevice1 = new memeDevice();
 
